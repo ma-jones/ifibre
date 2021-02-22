@@ -1,0 +1,80 @@
+<div class="footer">
+    <div class="container">
+       <div class = "row">
+                       <div class ="col-md-4">
+                      <hr>
+                  <ul>
+                      <!--<li><a href="./"><img src="./img/cb-wh-new.svg" height="25" alt="CB Digital"/></a></li>
+                      <li><abbr title="Phone">P:</abbr> 0207 043 3461</li>-->
+                      <li><a href="mailto:hello@ultranebula.com">hello@ultranebula.com</a></li>
+                      <li><a href="/contact">Contact</a></li>
+                  </ul>
+
+                </div>
+
+                        <div class = "col-md-4">
+                  <hr>
+                  <ul>
+                      <li><strong>Ultra Nebula</strong></li>
+                     
+                  </ul>
+              </div>
+
+                      <div class = "col-md-4">
+                      <hr>
+                      <ul>
+                      <li><strong>Follow Us</strong></li>
+                      </ul>
+                      <br>
+                      <ul class="social-network social-circle">
+                      <li><a href="https://www.instagram.com/ultranebula" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                      <li><a href="https://www.soundcloud.com/ultranebula" class="icoSoundCloud" title="SoundCloud"><i class="fa fa-soundcloud"></i></a></li>
+                      </ul>
+
+              </div>
+          </div>
+      </div>
+
+  <div class="filler"></div>
+
+   <div class="container">
+       <div class="row">
+           <div class="col-md-8">
+              
+              <ul>
+               <li><a href="./privacy-policy">Privacy Policy</a></li>
+               <li><a href="./terms">Terms &amp; Conditions</a></li>
+               <li><a href="./sitemap.xml">Site Map</a></li>
+              </ul>
+           </div>
+           <div class="col-md-4">
+
+            <ul class="copyright">
+              <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
+              {% if site.first_published %}
+              {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+              {% if diff contains '-' %}{{ site.first_published }},{% endif %}
+              {% endif %}
+              {{ thisyear }}
+              {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
+              <li>Design: <a href="https://thatviz.com" target="_blank">ThatViz For UltraNebula</a></li>
+              <li>Built with: <a href="https://ultranebula.com" target="_blank">Bootstrap, GitHub &amp; Jekyll &raquo;</a></li>
+            </ul>
+
+           </div>
+       </div>
+   </div>
+
+<script src="https://ultranebula.netlify.app/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- /Scripts -->
